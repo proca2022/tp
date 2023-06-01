@@ -1,0 +1,106 @@
+
+*{
+    font-family: 'Montserrat','sans-serif';
+}
+main {
+    
+    width: 100%;
+    background-color: gainsboro;
+  }
+  #agregarPelicula{
+    text-align: center;
+  }
+
+#p1{
+    background-color:#28a745;
+    border-radius: 5px;
+    padding: 0px 8px 0px;
+    color: white;
+}
+
+#p2{
+    background-color: #dc3545;
+    border-radius: 5px;
+    padding: 0px 8px 0px;
+    color: white;
+}
+
+#p3{
+    background-color : #ffc107;
+    border-radius: 5px;
+    padding: 0px 8px 0px;
+    color: white;
+}
+
+.sec_pelis div p{
+
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    Calibri, 'Trebuchet MS', 'sans-serif';
+    color: rgb(52, 149, 116);
+}
+
+.sec_pelis div h3{
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sec_pelis {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+     
+   
+     
+
+}
+.sec_pelis div {
+    margin: 0px 20px 0px;
+     
+    
+}
+.sec_pelis div h3{
+text-align: center;
+}
+ 
+
+ #boton{
+    text-align: center;
+    color: aliceblue;
+ }
+.sec_pelis div div button{
+
+    padding: 10px 40px;
+    border-radius: 50px;
+    border-bottom: solid black;
+    background-color: rgb(164, 162, 162);
+    margin-top: 20px;
+    color: white;
+    
+}
+.sec_pelis div img{
+   width: 100%;
+   border-radius: 15px;
+     
+   
+}
+.sec_pelis div div button a{
+    color: white;
+    text-decoration: none;
+}
+
+.paginacion button{
+   
+    padding: 10px 40px;
+    border-radius: 50px;
+    border-bottom: solid black;
+    background-color: rgb(26, 9, 77);
+    margin-left:  50px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 400;
+
+   
+ }

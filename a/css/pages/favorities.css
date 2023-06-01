@@ -1,0 +1,25 @@
+.sec-favorites{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+
+}
+
+.sec-favorites div img{
+    width: 65%;
+    border-radius: 15px;
+    justify-items: center;
+    margin-left: 50px;
+
+}
+
+.sec-favorites div {
+    margin: 0px 100px 0px;
+     
+     
+}
+
+main {
+   width: 100%;
+  }
+

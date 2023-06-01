@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TUP LC2 - TP Integrador - Cine</title>
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/pages/index.css">
+</head>
+
+<body>
+  <a name ="ancla1"></a>
+  <header>
+    <h1>
+      <!--Titulo Cabecera-->
+      <p>
+        <img src="img/IconoCine.png" aling="left" id="iconoCartelera" > Cartelera de Cine
+      </p>
+    </h1>
+    <nav>
+      <!--Menu Superior-->
+      <ul>
+        <li class="current-page"><a href="#">Cartelera</a></li>
+        <li><a href="favorities.html">Mis Favoritas</a></li>
+        <li><a href="help.html">Ayuda</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Contenido principal de la página -->
+  <main>
+    
+    <h2>Últimas Películas en Cartelera</h2>
+    <p id="agregarPelicula">Agregar Pelicula Favorita por Codido</p>  
+    <section id="form-movie-new">
+      <!--Seccion para agregar una palicula favorita por codigo-->
+     <form action="">
+        <input type="text">
+        <button>agrerar</button>
+      </form>
+    </section> 
+    <section id="sec-messages">
+      <!--Seccion para mensajes-->
+     <p hidden id="p1"> Película agregada con éxito</p>
+     <p hidden id="p2"> Error: La Película seleccionada no se encuentra en la API o se produjo un
+      error al consultar</p>
+     <p hidden id="p3"> La Película ingresada ya se encuentra almacenada</p>
+    </section>
+
+
+
+
+    <section id="sec_peliculas">
+      <!--Seccion visualizacion de peliculas-->
+<div class= "sec_pelis">
+      <div class="contenedorPeliculas" id="marioBros">
+        <img src="img/mario bros.jpg" alt="marioBros">
+        <h3> Super Mario Bross. La pelicula</h3>
+        <p>
+         <b>codigo:</b> 502356 <br>
+         <b>titulo original:</b> The Super Mario Bross. Movie <br>
+         <b>idioma original:</b> en <br>
+         <b>anio:</b> 2023-04-05 <br>
+         <div id="boton">
+          <button><a href="favorities.html"> agregar a favoritos</a></button>
+          </div>
+          
+        </p>
+      </div>
+
+      <div class="contenedorPeliculas" id="shazam">
+        <img src="img/shazam-2.jpg" alt="shazam">
+        <h3>!Shazam! La furia de los dioses</h3>
+        <p>
+         <b>codigo:</b> 594767 <br>
+         <b>titulo original:</b> Shazzam! Fury of the Gods  <br>
+         <b>idioma original:</b> en <br>
+         <b>anio:</b> 2023-03-15 <br>
+         <div id="boton">
+          <button><a href="favorities.html"> agregar a favoritos</a></button>
+          </div>
+        </p>
+      </div>
+
+      <div class="contenedorPeliculas" id="lanina">
+        <img src="img/lanina.jpg" alt="lanina">
+        <h3>La nina de la comunion</h3>
+        <p>
+         <b>codigo:</b> 1008005 <br>
+         <b>titulo original:</b> La nina de la comunion <br>
+         <b>idioma original:</b> en <br>
+         <b>anio:</b> 2023-03-01 <br>
+         <div id="boton">
+          <button><a href="favorities.html"> agregar a favoritos</a></button>
+          </div>
+        </p>
+      </div>
+
+      <div class="contenedorPeliculas" id="gatoConBotas">
+        <img src="img/gato con botas.jpg" alt=" gato con botas">
+        <h3>Gato con Botas: El ultimo deseo</h3>
+        <p>
+         <b>codigo:</b> 315162 <br>
+         <b>titulo original:</b> Puss in Boots: The Last Wish<br>
+         <b>idioma original:</b> en <br>
+         <b>anio:</b> 2022-12-07 <br>
+         <div id="boton">
+          <button><a href="favorities.html"> agregar a favoritos</a></button>
+          </div>
+        </p>
+      </div>
+
+    </div>
+      
+     </section>
+
+
+
+
+
+    <section id="sec_paginador_peliculas">
+      <!--Seccion de Paginacion-->
+      <div class="paginacion" id="paginacion">
+        <button id="btnAnterior">Anterior</button>
+        <button id="btnSiguiente">Siguiente</button>
+      </div>
+    </section>
+
+  </main>
+
+
+  
+  <footer>
+    <p>Desarrollado con ♥ - LC2</p>
+  </footer>
+</body>
+
+</html>
